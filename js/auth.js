@@ -38,6 +38,7 @@ logout.addEventListener('click', (e) => {
     e.preventDefault();
     auth.signOut().then(() => {
         console.log('user signed out');
+        document.querySelector('#status').innerHTML = 'User logout'
     })
 });
 
@@ -54,6 +55,13 @@ loginForm.addEventListener('submit', (e) => {
     auth.signInWithEmailAndPassword(email, password).then((cred) => {
         console.log(cred.user);
         loginForm.reset();
+        document.querySelector('#status').innerHTML = auth.currentUser.email
     });
 
 });
+
+if (auth.currentUser !== null) {
+    document.querySelector('#status').innerHTML = auth.currentUser.email
+} else {
+    document.querySelector('#status').innerHTML = 'User logout'
+}
