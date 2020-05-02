@@ -20,3 +20,7 @@ p.message {
     font-family: 'Days One', sans-serif !important;
     font-weight: 500;
 }
+
+div img {
+    margin: 10px 0;
+}
