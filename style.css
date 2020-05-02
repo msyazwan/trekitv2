@@ -1,96 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
-body {
-    font-family: 'Poppins', sans-serif !important;
-    /* font-family: 'Montserrat', sans-serif !important; */
-}
-
-.sidenav {
+body,
+html {
     height: 100%;
-    background: #141E30;
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);
-    background: linear-gradient(to right, #243B55, #141E30);
-    overflow-x: hidden;
-    padding-top: 60px;
 }
 
-.main {
-    padding: 0px 10px;
+h1,
+h2 {
+    margin: 10px 0 0 0 !important;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .login-form {
-        margin-top: 10%;
-    }
-
-    .register-form {
-        margin-top: 10%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .main {
-        margin-left: 40%;
-    }
-
-    .sidenav {
-        width: 40%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-    }
-
-    .login-form {
-        margin-top: 80%;
-    }
-
-    .register-form {
-        margin-top: 20%;
-    }
-}
-
-.login-main-text {
-    margin-top: 20%;
-    padding: 60px;
-    color: #fff;
-    font-weight: 100;
-}
-
-.login-main-text h2 {
-    font-weight: 500;
+p.message {
+    margin: 0 !important;
 }
 
 .trekit {
-    font-size: 2.2em;
-    font-weight: 600;
-}
-
-.login-main-text p {
-    font-size: 1.1em;
-    font-weight: 300;
-}
-
-img.logo {
-    margin-bottom: 50px;
-}
-
-input.btn-primary {
-    background: #141E30;
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);
-    background: linear-gradient(to right, #243B55, #141E30);
-    border-color: #00b0ff;
-}
-
-div.main {
-    display: block;
-    height: 100%;
-    position: relative;
-    top: -150px;
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Days One', sans-serif;
+    font-weight: 500;
 }
