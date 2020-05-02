@@ -17,6 +17,6 @@ p.message {
 .trekit {
     font-size: 1.3em;
     font-weight: 700;
-    font-family: 'Days One', sans-serif;
+    font-family: 'Days One', sans-serif !important;
     font-weight: 500;
 }
