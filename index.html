@@ -14,41 +14,43 @@
 </head>
 
 <body>
-    <div class="uk-height-1-1 uk-flex uk-flex-center" uk-grid>
-
-        <div class="" style="padding: 100px 100px 0 35px">
-            <h1>HELLO.</h1>
-            <h2>Welcome to <span class="trekit">trekit</span></h2>
-            <p class="message">
-                <b>trekit</b> is a software as a service (SaaS)<br> platform,
-                where you can create, customize and<br> track your learning progress online
-            </p>
+    <div class="uk-height-1-1 uk-width-1-1 uk-flex uk-flex-center">
+        <div class="left uk-flex uk-flex-middle">
+            <div>
+                <h1>HELLO.</h1>
+                <h2>Welcome to <span class="trekit">trekit</span></h2>
+                <p class="message">
+                    <b>trekit</b> is a software as a service (SaaS) platform<br>
+                    for individuals who wants to create,<br>
+                    customize and track their online learning<br>
+                    progress from various sources in one place.
+                </p>
+            </div>
         </div>
 
-        <div style="border-left: solid rgb(223, 223, 223) 1.5px; padding: 100px 35px 0 100px;">
-
+        <div class="right uk-flex uk-flex-middle">
             <form>
                 <h2>Sign In</h2>
-
-                <div class="uk-margin">
-                    <div class="uk-inline uk-width-1-1">
+                <div>
+                    <div class="uk-inline">
                         <span class="uk-form-icon" uk-icon="icon: mail"></span>
                         <input class="uk-input" type="email" placeholder="Email" required>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-inline uk-width-1-1">
+                    <div class="uk-inline">
                         <span class="uk-form-icon" uk-icon="icon: lock"></span>
                         <input class="uk-input" type="password" placeholder="Password" required>
                     </div>
                 </div>
-                <p uk-margin>
-                    <input type="submit" class="uk-button uk-button-default " value="Submit">
+                <div>
+                    <input type="submit" class="uk-button uk-button-default" value="Submit">
                     <button type="button" class="uk-button uk-button-primary">Create Account</button>
-                </p>
-                <a class="uk-button uk-button-text" href="https://www.google.com">Forgot your password?</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text" href="https://www.google.com">Forgot your password?</a>
+                </div>
             </form>
-
         </div>
 
 </body>
