@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <style>
+        p {
+            display: inline-block;
+        }
+    </style>
+
+    <script>
+        function openLink(obj) {
+            window.open(obj.getAttribute("href"), "", "menubar=0,width=800,height=600,left=0,top=0");
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>COURSES</h1>
+
+    <ul>
+        <li><a href="https://www.youtube.com/playlist?list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax" target="_blank"
+                rel="noopener noreferrer">JavaScript Tutorials</a>
+            <p> | </p>
+            <!-- Channel Name or Course Provider; e.g: Programming with Mosh, IBM, Super Data Science, Microsoft, etc. -->
+            <p>Programming with Mosh</p>
+            <p> | </p>
+            <!-- Course Platform; e.g: Youtube, Coursera, Udemy, EDX, Datacamp, etc. -->
+            <p>Youtube</p>
+            <p> | </p>
+            <!-- Tags -->
+            <p>Tags: JavaScript, Front-End</p>
+        </li>
+        <!-- Module name -->
+        <ol>
+            <li>
+                <a href="https://www.youtube.com/watch?v=W6NZfCO5SIk&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=1"
+                    target="_blank" rel="noopener noreferrer"> JavaScript Tutorial for Beginners: Learn
+                    JavaScript in 1 Hour [2019]
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=PFmuCDHHpwk&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=2"
+                    onclick="openLink(this); return false;"> Object-oriented Programming in JavaScript: Made Super
+                    Simple | Mosh</a>
+            </li>
+            <li>
+                JavaScript Arrays
+            </li>
+            <li>
+                JavaScript Functions
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=09BwruU4kiY&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=5"
+                    target="_blank" rel="noopener noreferrer"> Object-oriented Programming in JavaScript: Made Super
+                    Simple | Mosh
+                </a> </li>
+        </ol>
+    </ul>
+
+    <ul>
+        <li><a href="https://www.coursera.org/learn/sql-data-science/home/welcome" target="_blank"
+                rel="noopener noreferrer">Databases and SQL for Data Science
+            </a>
+            <p> | </p>
+            <!-- Channel Name or Course Provider; e.g: Programming with Mosh, IBM, Super Data Science, Microsoft, etc. -->
+            <p>IBM</p>
+            <p> | </p>
+            <!-- Course Platform; e.g: Youtube, Coursera, Udemy, EDX, Datacamp, etc. -->
+            <p>Coursera</p>
+            <p> | </p>
+            <!-- Tags -->
+            <p>Tags: SQL, Data Science, Database</p>
+        </li>
+        <!-- Module name -->
+        <ol>
+            <li>
+                <a href="https://www.coursera.org/learn/sql-data-science/home/week/1"
+                    onclick="openLink(this); return false;">Introduction to Databases and Basic SQL
+                </a>
+            </li>
+            <li>
+                <a href="https://www.coursera.org/learn/sql-data-science/home/week/2"
+                    onclick="openLink(this); return false;"> Advanced SQL</a>
+            </li>
+        </ol>
+    </ul>
+
+</body>
+
+</html>
