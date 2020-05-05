@@ -8,36 +8,16 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>trekit</title>
-
+    <title>trekit - Main Page</title>
 </head>
 
 <body>
-    <section id="container-index">
-        <div>
-            <h1>HELLO.</h1>
-            <h2>Welcome to <span class="trekit">trekit</span></h2>
-            <p class="message">
-                <b>trekit</b> is a software as a service (SaaS) platform<br>
-                for individuals who wants to create,<br>
-                organize and track their online learning<br>
-                progress from various sources in one place.
-            </p>
-        </div>
 
-        <div>
-            <form id="signInForm">
-                <h2>Sign In</h2>
+    <section id="container-main">
+        <h1>Hello, there.</h1>
+        <h2 id="welcome"></h2>
 
-                <input id="email" type="email" placeholder="Email" required>
-                <input id="password" type="password" placeholder="Password" required>
-
-                <input id="signIn" type="submit" value="Sign In">
-                <button id="signUp" type="button">Create Account</button>
-
-                <a class="uk-button uk-button-text" href="./">Forgot your password?</a>
-            </form>
-        </div>
+        <button id="logout">Sign Out</button>
     </section>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -68,7 +48,7 @@
         // const an = firebase.analytics()
     </script>
 
-    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 

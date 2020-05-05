@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+.trekit {
+    font-size: 1.4em !important;
+    font-family: 'Days One', sans-serif !important;
+}
+
+#container-index {
+    display: none;
+}
+
+#container-main {
+    display: none;
+}
