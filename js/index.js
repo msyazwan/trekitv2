@@ -4,7 +4,7 @@
 // listen for auth status changes
 auth.onAuthStateChanged((user) => {
     if (user) {
-        window.location.replace("/main.html");
+        window.location.replace("./user.html");
     } else {
         console.log("No logged in user.");
         document.querySelector("#container-index").style.display = "block"

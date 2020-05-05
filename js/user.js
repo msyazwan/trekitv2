@@ -5,10 +5,10 @@
 auth.onAuthStateChanged((user) => {
     if (user) {
         console.log("User logged in: ", user);
-        document.querySelector("#container-main").style.display = "block"
+        document.querySelector("#container-user").style.display = "block"
         document.querySelector("#welcome").innerHTML = "Welcome " + user.email;
     } else {
-        window.location.replace("/index.html");
+        window.location.replace("./index.html");
     }
 });
 
